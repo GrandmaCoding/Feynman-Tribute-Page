@@ -1,0 +1,152 @@
+#main {
+    background-image: linear-gradient(#FAFAD2,moccasin 75%);
+    border-radius: 1em;
+    display: block;
+    font-family: montserrat,sans-serif;
+    font-size: 140%;
+    margin: auto 3em;
+    padding: 2em;
+    text-align: center;
+  }
+  
+  #header {
+    color: white;
+    font-weight: bold;
+    min-height: 10vw;
+    border-radius: 1em 1em 0 0;
+    padding: 4em;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/59bc2eb0-69b1-42c5-a929-a029c3a783fc/d40j5nu-30bb4fc2-9587-4da1-a61d-cd8385391985.png/v1/fill/w_1280,h_800,q_80,strp/feynman_wallpaper_by_seigner_d40j5nu-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODAwIiwicGF0aCI6IlwvZlwvNTliYzJlYjAtNjliMS00MmM1LWE5MjktYTAyOWMzYTc4M2ZjXC9kNDBqNW51LTMwYmI0ZmMyLTk1ODctNGRhMS1hNjFkLWNkODM4NTM5MTk4NS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.F9_0dxRwVj6Ef8iu3RK52hCsff6UP5ZEf2mK3hDXvtU");
+    background-position: center;
+    
+  }
+  #head-text {
+    background-color: rgb(255,255,255,90%);
+    border-radius: 2em;
+    color: black;
+  }
+  #quote {
+    font-style: italic;
+  }
+  
+  #tribute-info {
+    line-height: 1.5em;
+    margin: auto 3em;
+    padding: 2em;
+  }
+  
+  .hover {
+    transition-property: transform;
+    transition-duration: 1s;
+  }
+  
+  .hover:hover {
+    transform: scale(110%);
+  }
+  
+  #img-div {
+    display: none;
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  #image {
+    display: block;
+    border-radius: 50%;
+    margin: auto;
+    padding-bottom: 1em;
+    max-width: 30%;
+   
+  }
+  
+  #video {
+    margin-top: 1em;
+    border-radius: 10%;
+  }
+  #gif {
+    max-width: 30%;
+    border-radius: 50%;
+  }
+  
+  #info {text-align: left;
+    min-width: 100%;
+  }
+  
+  #info h2 {text-align: center;}
+  
+  
+  
+  #foot {
+    background: #53bbb4;
+    border-radius: 1em;
+  }
+  
+  #foot li {
+    margin: auto 1em;
+    text-align: left;
+    display: inline;
+  }
+  
+  #foot a {
+    color: white;
+  }
+  
+  
+  @media (max-width: 1400px) {
+    #main {
+      margin: 0;
+      padding: 0;
+    }
+    #gif {max-width: 50%;}
+    #image {max-width: 75%;}
+    #foot {
+      border-radius: 0 0 1em 1em;
+      margin-bottom: 1em;
+    }
+  }
+  
+  @media (max-width: 870px) {
+    #foot li {
+    text-align: left;
+    display: list-item;
+  }
+  }
+  
+  @media (max-width: 800px) {
+    #img-div {display: block;}
+    #tribute-info {
+      margin: 0;
+      padding: 0;
+    }
+    #tribute-info li {
+      margin-bottom: .5em;
+    }
+    #vid-div {display: none;}
+  }
+  
+  @media (max-width: 725px) {
+    #gif {max-width: 75%;}
+    
+  }
+  
+  @media (max-width: 647px) {
+    
+    #main {font-size: 110%;}
+  }
+  
+  @media (max-width: 560px) {
+   
+    #main {font-size: 90%;}
+  }
+  
+  @media (max-width: 450px) {
+    
+    #gif {max-width: 100%;}
+    #header {padding-bottom: 0;}
+  }
+  
+  @media (max-width: 340px) {
+    #info {
+      text-align: left;
+    }
+  }
